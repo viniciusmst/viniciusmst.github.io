@@ -1,0 +1,66 @@
+/* Formatação da tag h4, contendo a fonte, tamanho e espaçamento */
+h4 {
+    color: rgb(87, 87, 87);
+    font-weight: 200px;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    font: 100 1.5rem archivo;
+}
+
+/* Formatação da tag h2, contendo a fonte, tamanho e espaçamento */
+h2 {
+    color: black;
+    font-weight: 200px;
+    letter-spacing: -0.05em;
+    margin-bottom: 0px;
+    font: 100 2.5rem archivo;
+}
+
+/* Formatação da tag h6, contendo a fonte, tamanho e espaçamento */
+h6 {
+    color: black;
+    font-weight: 200px;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    font: 100 1.2rem archivo;
+}
+
+/* Criando os blocos de conteúdos iguais o do css "style.css" dando importância para a "margin-left" */
+.style-block {
+    display: inline-block;
+    width: 20%;
+    margin-left: 40% !important;
+    height: 10%;
+    position: relative;
+    border: 10px solid #C2CCCA;
+    background-color: #D9E5E3;
+}
+
+/* Ajustes no container dos textos do currículo, deixando alinhados com os blocos */
+.container-text {
+    margin-left: 35%;
+    width: 30%;
+}
+
+/* Atribuindo uma posição e um espaçamento no topo para a descrição do início da página */
+#description {
+    position: Relative;
+    margin-top: 100px;
+}
+
+/* Responsividade */
+@media (max-width: 414.98px) {
+    .style-block {
+        display: inline-block;
+        width: 60%;
+        margin-left: 20% !important;
+        position: relative;
+        border: 10px solid #C2CCCA;
+        background-color: #D9E5E3;
+    }
+
+    .container-text {
+        margin-left: 15%;
+        width: 70%;
+    }
+}

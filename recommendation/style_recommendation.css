@@ -1,0 +1,33 @@
+/* Atribuindo espaçamentos para a frase e o carousel */
+#recommendation {
+    position: Relative;
+    margin-top: 0px;
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+/* Determinando o tamanho das imagens do carousel, dessa forma deixando todas do mesmo tamanho */
+.img {
+    width: 800px;
+    height: 400px;
+}
+
+/* Ocultando as redes sociais quando tiver uma tela menor ou igual a 798.98px */
+@media (max-width: 798.98px) {
+    .fab {
+        opacity: 0;
+        color: rgb(0, 0, 0);
+        position: fixed;
+        float: left;
+        font-size: 50px;
+        margin-top: 300px !important;
+    }
+}
+
+/* Adicionando os mesmos atributos para o rodapé, apenas dando prioridade para a "margin-top" deste css */
+.footer {
+    background: #343a40;
+    position: relative;
+    margin-top: 0px !important;
+    padding: 0;
+}
